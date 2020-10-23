@@ -65,7 +65,7 @@ i,
 
 header nav li,
 .contact nav li{
-    font-size:calc(1.3rem + 0.6vw);
+    font-size:calc(1.4rem + 0.7vw);
     display:inline-block;
     padding-right:40px;
 }
@@ -82,7 +82,7 @@ header nav li:last-child,
 }
 
 body{
-    font-size:2rem;
+    font-size:calc(1.4rem + 0.4vw);
 }
 
 h1,
@@ -91,7 +91,7 @@ h2{
 }
 
 h2{
-    font-size:4.2rem;
+    font-size:calc(2.5rem + 1vw);
 }
 
 /**********Header Styles**********/
@@ -115,16 +115,16 @@ header div{
 }
 
 header i{
-    font-size:3rem;
+    font-size:calc(2rem + 0.75vw);
     padding-bottom:15px;
 }
 
 h1{
-    font-size:13rem;
+    font-size:calc(6.9rem + 4vw);
     width:34%;
     background-color:rgba(227,228,234,0.89);
-    padding:20px 0 20px 16px;
-    line-height:105px;
+    padding:22px 0 22px 15px;
+    line-height:108px;
     position:absolute;
     bottom:20px;
     right:365px;
@@ -136,7 +136,7 @@ h1{
 
 .specialFeet a,
 .giving a{
-    font-size:1.8rem;
+    font-size:calc(1.3rem + 0.4vw);
 }
 
 .giving,
@@ -182,7 +182,7 @@ h1{
 }
 
 .products p{
-    font-size:3rem;
+    font-size:calc(1.5rem + 1vw);
     font-weight:600;
 }
 
@@ -193,11 +193,11 @@ h1{
 
 .item{
     width:calc(100% / 3);
-    padding:9% 0;
+    padding:70px 0;
 }
 
 .item i{
-    font-size:4.5rem;
+    font-size:calc(2.5rem + 1.5vw);
     padding-bottom:20px;
 }
 
