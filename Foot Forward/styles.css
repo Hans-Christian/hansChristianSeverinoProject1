@@ -95,6 +95,11 @@ h2{
     font-size:calc(2.5rem + 1vw);
 }
 
+#submit,
+footer p{
+    color:#F4F4F4;
+}
+
 /**********Header Styles**********/
 
 header{
@@ -311,7 +316,6 @@ input[type="email"]{
 
 #submit{
     background-color:#186684;
-    color:white;
     margin-left:-7px;
 }
 
@@ -322,6 +326,7 @@ footer{
 }
 
 footer p{
-    color:#F4F4F4;
+    padding:12px 0;
+    text-align:center;
 }
 
