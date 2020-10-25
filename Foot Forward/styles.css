@@ -54,18 +54,29 @@ h1,
 h2,
 .specialFeet a,
 .giving a,
-.products p{
+.products p,
+i:hover,
+i:focus{
     color:#186684;
 }
 
 i,
-.contact h3{
+.contact h3,
+header nav a:hover,
+header nav a:focus,
+.contact nav a:hover,
+.contact nav a:focus{
     color:#E85B26;
 }
 
 header nav li,
+.contact nav li,
+body{
+    font-size:2rem;
+}
+
+header nav li,
 .contact nav li{
-    font-size:calc(1.4rem + 0.55vw);
     display:inline-block;
     padding-right:40px;
 }
@@ -81,18 +92,10 @@ header nav li:last-child,
     padding:0;
 }
 
-body{
-    font-size:calc(1.4rem + 0.4vw);
-}
-
 h1,
 h2,
 h3{
     font-weight:lighter;
-}
-
-h2{
-    font-size:calc(2.5rem + 1vw);
 }
 
 #submit,
@@ -166,7 +169,13 @@ h1{
 }
 
 .item,
-.insta li{
+.insta li,
+.brown img,
+.brown div,
+.giving img,
+.givingBack,
+.info,
+.updated{
     float:left;
 }
 
@@ -186,15 +195,6 @@ h1{
 .brown p,
 .giving p{
     margin:10px 0 30px 0;
-}
-
-.brown img,
-.brown div,
-.giving img,
-.givingBack,
-.info,
-.updated{
-    float:left;
 }
 
 .wall img,
@@ -246,11 +246,10 @@ h1{
     background-image:url(./assets/assets/image-5@2x.png);
     background-size:contain;
     background-repeat:no-repeat;
-    margin-bottom:-175px;
 }
 
 .products p{
-    font-size:calc(1.5rem + 1vw);
+    font-size:3rem;
     font-weight:600;
 }
 
@@ -265,7 +264,7 @@ h1{
 }
 
 .item i{
-    font-size:calc(2.5rem + 1.5vw);
+    font-size:4.8rem;
     padding-bottom:20px;
 }
 
@@ -282,6 +281,10 @@ h1{
 
 .insta li:last-child{
     margin-right:0;
+}
+
+.insta{
+    margin-top:-180px;
 }
 
 /*contact*/
@@ -332,24 +335,6 @@ footer p{
 
 /**********Hover/Focus**********/
 
-/*Multiple*/
-
-i:hover,
-i:focus{
-    color:#186684;
-}
-
-/*Header*/
-
-header nav a:hover,
-header nav a:focus,
-.contact nav a:hover,
-.contact nav a:focus{
-    color:#E85B26;
-}
-
-/*Main*/
-
 .specialFeet a:hover,
 .specialFeet a:focus,
 .giving a:hover,
@@ -364,3 +349,10 @@ header nav a:focus,
 #submit:focus{
     background-color:#E85B26;
 }
+
+/**********Media Queries**********/
+
+@media (max-width:){
+
+}
+
