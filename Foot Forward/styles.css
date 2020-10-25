@@ -168,6 +168,20 @@ h1{
     text-align:center;
 }
 
+.wall p,
+.brown p,
+.giving p{
+    line-height:30px;
+    margin:10px 0 30px 0;
+}
+
+.brown img,
+.brown div,
+.giving img,
+.givingBack{
+    float:left;
+}
+
 /*specialFeet*/
 
 .wall img,
@@ -176,35 +190,37 @@ h1{
 }
 
 .wall div,
-.brown img{
-    float:left;
-}
-
-.wall img,
-.brown div{
-    float:right;
-}
-
-.wall div,
 .brown div{
     width:35%;
 }
 
-.wall p,
-.brown p{
-    line-height:30px;
-    margin:10px 0 30px 0;
+.wall img,
+.wall div{
+    float:right;
 }
 
 .wall div{
-    margin:140px 0 0 100px;
-}
-
-.brown div{
     margin:140px 125px 0 0;
 }
 
+.brown div{
+    margin:140px 0 0 100px;
+}
+
 /*giving*/
+
+.giving{
+    padding:110px 0;
+}
+
+.giving img{
+    width:21%;
+}
+
+.givingBack{
+    width:calc(79% - 40px);
+    margin-left:40px;
+}
 
 /*products*/
 
