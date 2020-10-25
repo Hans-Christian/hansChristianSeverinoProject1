@@ -330,3 +330,37 @@ footer p{
     text-align:center;
 }
 
+/**********Hover/Focus**********/
+
+/*Multiple*/
+
+i:hover,
+i:focus{
+    color:#186684;
+}
+
+/*Header*/
+
+header nav a:hover,
+header nav a:focus,
+.contact nav a:hover,
+.contact nav a:focus{
+    color:#E85B26;
+}
+
+/*Main*/
+
+.specialFeet a:hover,
+.specialFeet a:focus,
+.giving a:hover,
+.giving a:focus{
+    background-color:#186684;
+    color:#F4F4F4;
+    border-radius:7px;
+    transition:all 0.5s ease-in;
+}
+
+#submit:hover,
+#submit:focus{
+    background-color:#E85B26;
+}
