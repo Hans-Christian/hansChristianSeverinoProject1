@@ -129,7 +129,7 @@ header i{
 }
 
 h1{
-    font-size:calc(6.9rem + 4vw);
+    font-size:13rem;
     width:34%;
     background-color:rgba(227,228,234,0.89);
     padding:22px 0 22px 15px;
@@ -217,11 +217,11 @@ h1{
 }
 
 .wall div{
-    margin:140px 125px 0 0;
+    margin:150px 125px 0 0;
 }
 
 .brown div{
-    margin:140px 0 0 100px;
+    margin:150px 0 0 100px;
 }
 
 /*giving*/
@@ -352,7 +352,99 @@ footer p{
 
 /**********Media Queries**********/
 
-@media (max-width:){
+@media (max-width:940px){
+    
+    /***********Header***********/
+    
+    header{
+        background-position:center;
+    }
+
+    h1{
+        font-size:9.5rem;
+        width:40%;
+        line-height:85px;
+        padding:12px;
+        right:130px;
+    }
+
+    header div{
+        bottom:155px;
+    }
+
+    /***********Main***********/
+
+    /*Multiple*/
+
+    .specialFeet p,
+    .giving p{
+        line-height:25px;
+        margin:7px 0 17px 0;
+    }
+
+    .giving,
+    .contact{
+        padding:40px 0;
+    }
+    
+    /*specialFeet*/
+
+    .wall div,
+    .brown div{
+        width:40%;
+    }
+
+    .wall div{
+        margin:40px 30px 0 0;
+    }
+
+    .brown div{
+        margin:40px 0 0 60px;
+    }
+
+    /*giving*/
+
+    .giving img{
+        width:36.5%;
+    }
+
+    .givingBack{
+        width:calc(63.5% - 30px);
+        margin-left:30px;
+    }
+
+    /*products*/
+
+    .item{
+        padding:20px 0;
+    }
+
+    .products .wrapper{
+        padding-top:70px;
+    }
+
+    /*insta*/
+
+    .insta{
+        margin-top:-150px;
+    }
+
+    .insta li{
+        margin:35px 40px 40px 0;
+    }
+
+    /*contact*/
+
+    input[type="email"]{
+        width:280px;
+    }
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:480px){
 
 }
 
