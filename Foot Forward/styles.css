@@ -441,7 +441,112 @@ footer p{
 }
 
 @media (max-width:768px){
+    
+    /***********Header***********/
+    
+    header{
+        background-position:left;
+    }
 
+    h1{
+        font-size:8rem;
+        width:42%;
+        line-height:70px;
+        right:100px;
+        bottom:-20px;
+    }
+
+    /***********Main***********/
+
+    /*Multiple*/
+
+    header nav li,
+    .contact nav li,
+    body{
+        font-size:1.7rem;
+    }
+
+    .giving,
+    .contact{
+        padding:40px 0;
+    }
+
+    .specialFeet p,
+    .giving p{
+        margin:3px 0 14px 0;
+    }
+    
+    /*specialFeet*/
+
+    .wall div,
+    .brown div{
+        width:43%;
+    }
+
+    .wall div{
+        margin:15px 20px 0 0;
+    }
+
+    .brown div{
+        margin:15px 0 0 30px;
+    }
+
+    /*giving*/
+
+    .giving img{
+        width:45%;
+    }
+
+    .givingBack{
+        width:calc(55% - 20px);
+        margin-left:20px;
+    }
+
+    /*products*/
+
+    .products p{
+        font-size:2.3rem;
+    }
+
+    .item i{
+        font-size:4.4rem;
+    }
+
+    .proComReach{
+        width:65%;
+    }
+
+    .item{
+        padding:20px;
+    }
+
+    .products .wrapper{
+        padding-top:50px;
+    }
+
+    /*insta*/
+
+    .insta{
+        margin-top:-210px;
+    }
+
+    /*contact*/
+
+    h3{
+        font-size:2.5rem;
+    }
+
+    .contact p{
+        line-height:25px;
+    }
+
+    input[type="email"]{
+        width:210px;
+    }
+
+    #email{
+        margin-top:7px;
+    }
 }
 
 @media (max-width:480px){
