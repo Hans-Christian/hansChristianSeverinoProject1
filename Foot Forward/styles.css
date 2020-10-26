@@ -580,20 +580,37 @@ footer p{
     .brown div,
     .giving img,
     .givingBack,
-    .item{
+    .item,
+    .info,
+    .updated{
         width:100%;
         float:none;
     }
 
     .wall div,
     .brown div,
-    .givingBack{
+    .givingBack,
+    .info,
+    .updated,
+    ::placeholder{
         text-align:center;
     }
 
     .specialFeet p,
     .givingBack p{
         margin:10px 0 25px 0;
+    }
+
+    .item,
+    .info,
+    .updated,
+    #submit{
+        margin:0 auto;
+    }
+
+    .insta,
+    .updated{
+        margin-top:40px
     }
 
     /*specialFeet*/
@@ -637,10 +654,6 @@ footer p{
         width:88%;
     }
 
-    .item{
-        margin:0 auto;
-    }
-
     .products .wrapper{
         padding:30px;
     }
@@ -652,12 +665,19 @@ footer p{
         margin-right:20px;
     }
 
-    .insta{
-        margin-top:40px
-    }
-
-    
     /*contact*/
 
+    input[type="email"],
+    #submit{
+        width:100%;
+    }
+
+    #submit{
+        margin-top:13px;
+    }
+
+    #email{
+        padding:8px 0 5px;
+    }
 }
 
