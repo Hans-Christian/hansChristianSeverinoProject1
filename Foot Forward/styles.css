@@ -551,5 +551,113 @@ footer p{
 
 @media (max-width:480px){
 
+    /**********Header**********/
+
+    header{
+        background-position:left 25% bottom 50%;
+    }
+
+    h1{
+        font-size:8rem;
+        width:67%;
+        line-height:67px;
+        right:20px;
+        padding:20px 13px;
+    }
+
+    /**********Main**********/
+
+    /*Multiple*/
+
+    .fab,
+    .insta li:last-child{
+        display:none;
+    }
+
+    .wall img,
+    .wall div,
+    .brown img,
+    .brown div,
+    .giving img,
+    .givingBack,
+    .item{
+        width:100%;
+        float:none;
+    }
+
+    .wall div,
+    .brown div,
+    .givingBack{
+        text-align:center;
+    }
+
+    .specialFeet p,
+    .givingBack p{
+        margin:10px 0 25px 0;
+    }
+
+    /*specialFeet*/
+    
+    .wall div,
+    .brown div{
+        padding:0 25px;
+        margin:40px 0 60px 0;
+    }
+
+    /*giving*/
+
+    .giving{
+        padding-bottom:20px;
+    }
+
+    .givingBack{
+        margin:40px 0 30px 0
+    }
+
+    .givingBack p{
+        text-align:left;
+    }
+
+    /*products*/
+
+    .products{
+        background-size:cover; 
+        
+    }
+
+    .products p{
+        font-size:3rem;
+    }
+
+    .item i{
+        font-size:6rem;
+    }
+
+    .proComReach{
+        width:88%;
+    }
+
+    .item{
+        margin:0 auto;
+    }
+
+    .products .wrapper{
+        padding:30px;
+    }
+
+    /*insta*/
+
+    .insta li{
+        width:calc(50% - 20px);
+        margin-right:20px;
+    }
+
+    .insta{
+        margin-top:40px
+    }
+
+    
+    /*contact*/
+
 }
 
